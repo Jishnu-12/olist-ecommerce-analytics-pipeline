@@ -19,7 +19,8 @@ sucessfully explored 9 raw csv files including
 - products
 
 - The review dataset contains a significantly high level of missing values especially in text related columns
-- Datatype missmathches where identified in multiple datasets. particulerly in timestamp columns which are currently stored as object types instead of proper date time format. the datasets are order_items, reviews, and orders need to fix that
+- Datatype missmathches where identified in multiple datasets. particulerly in timestamp columns which are currently stored as object types instead of proper date time format. the datasets are order_items, reviews, and orders need to fix that.
+- text based columns are not keeping a standard format need to fix that
 
 The dataset represents a Brazilian e-commerce system where Product categories and customer reviews are in Portuguese.
 A category translation dataset is provided, containing 71 category names with their English translations.
@@ -31,4 +32,3 @@ The noted issues will be handled during the cleaning phase
 - Handle missing values
 - Remove duplicates
 - Fix data types
-- Merge datasets to create a structured dataset for SQL-based analysis
