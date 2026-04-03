@@ -25,6 +25,10 @@ sucessfully explored 9 raw csv files including
 The dataset represents a Brazilian e-commerce system where Product categories and customer reviews are in Portuguese.
 A category translation dataset is provided, containing 71 category names with their English translations.
 
+#### outlier analysis 
+outlier annalysis was only focused on key financial valriables such as price, freight_value, payment_value because they directly impact on business insights
+the detected outliers are real world business scenarios such as premium product purchase, high shippig cost, high value customer transaction.since this is an e-commerse data these are not errors so it will be not handled during the cleaning phase
+
 The noted issues will be handled during the cleaning phase
 
 ### Next Steps
