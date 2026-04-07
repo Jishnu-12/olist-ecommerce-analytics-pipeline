@@ -9,4 +9,7 @@ No missing values and duplicate rows were detected. Customer_zipcode_prefix colu
 they only act like identifiers. Customer city names were not standardized fixed both of them. otherwise the dataset was clean
 
 ### geolocation
+Duplicated rows were detected and removed properly. geolocation_zipcode_prefix column datatype was in integer and changed to strings. geolocation_city column
+names were not standardized so fixed that
+
 
